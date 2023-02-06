@@ -319,6 +319,11 @@ header p {
 
 /* ===== FAQs ===== */
 
+#faqs > h1 {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
 .faqs__container {
     width: 44%;
     display: flex;
@@ -364,4 +369,81 @@ header p {
 
 .faq.open .faq__answer {
     display: block;
+}
+
+/* ==== DOWNLOAD APP ==== */
+
+.downloadApp__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.downloadApp__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#downloadApp .cta {
+    justify-content: start;
+    margin-top: 2rem;
+}
+
+/* ==== SUBSCRIBE ==== */
+
+.subscribe__container {
+    background: var(--color-primary);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    height: 20rem;
+    border-radius: 2rem;
+}
+
+.subscribe__text p {
+    margin-top: 1.4rem;
+    width: 80%;
+}
+
+/* ==== FOOTER ==== */
+
+footer {
+    background: var(--color-primary);
+    padding-top: 5rem;
+    font-size: 0.9rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer__container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.footer__container  > div h4 {
+    margin-bottom: 1.6rem;
+    color: var(--color-white);
+}
+
+.footer__logo h3 {
+   font-size: 1.7rem;
+}
+
+.footer__1 p {
+    margin: 1rem 0 2rem;
+    width: 20rem;
+}
+
+.footer__subscribe {
+    background: transparent;
+    border: 1px solid var(--color-light);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 3rem; 1:36:56
+
 }
